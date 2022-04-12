@@ -5,5 +5,5 @@
 - [Nibhir Tongchangya](https://github.com/nibton) 
 - [Gagandeep Singh Bindra](https://github.com/gagandeep00)
 - Ameesha Arora
-- Jiya Chintur
+- [Jiya Chintur](https://github.com/jiyac) 
 ---
