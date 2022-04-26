@@ -4,6 +4,6 @@
 
 - [Nibhir Tongchangya](https://github.com/nibton) 
 - [Gagandeep Singh Bindra](https://github.com/gagandeep00)
-- Ameesha Arora
+- [Ameesha Arora](https://github.com/ameesha26)
 - [Jiya Chintur](https://github.com/jiyac) 
 ---
