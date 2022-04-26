@@ -1,4 +1,4 @@
-# Restaurant Recommendation System using ML
+# Restaurant Recommendation System using Machine Learning
 
 ### _A Collaborative Project by,_ 
 
