@@ -53,31 +53,17 @@ We used `ast.literal_eval`method from `ast`: Abstract Syntax Trees library to co
 
 After converting the strings to list of tuples, we cleaned out the characters that are unnecessary and  might affect the accuracy of the sentiment score towards the end.
 
-Further, we used `string` and `re` libraries to further clean the data and to convert all Upper Cases to Lowere Cases.
+Further, we used `re` library to further clean the data like Removing Non ALphabets, Non English Words and to convert all Upper Cases to Lowere Cases.
 
-`import string`
-
-`import re`
-
-`final_clean=[]`
-
-`for i in final_reviews:`
-   ` final_clean1=''`
-
-  `   final_clean1=re.sub("[^A-Za-z]"," ",i.lower()) `
-
-   `  final_clean2 = re.sub(' +', ' ', final_clean1)   `
-
- `   final_clean.append(final_clean2)`   
 
  For the final part of the cleaning, we put the reviews through NLTK pipeline of: 
  
- `Tokenization` → `Text_Cleaning` → `Stopwords`  → `Lemmetization`.
+`Text_Cleaning` → `Stopwords`  → `Lemmetization`.
 
 
- After getting the Cleaned Text(reviews in this case), we pass that through our Sentiment Analyzer.
+ After getting the Cleaned Text(reviews in this case), we pass it through our Sentiment Analyzer.
 
- For that, we are using `SentimentIntensityAnalyzer` from the `NLTK` library. After getting the positive score, we merge the score column with our Dataset for further use.
+ For that, we are using  `blob.sentiment.polarity` from the `TextBlob` library. After getting the sentiment scores, we merge the score column with our Dataset for further use.
 
 ### Part: ii
 
