@@ -79,3 +79,21 @@ Further, we used `string` and `re` libraries to further clean the data and to co
 
  For that, we are using `SentimentIntensityAnalyzer` from the `NLTK` library. After getting the positive score, we merge the score column with our Dataset for further use.
 
+### Part: ii
+
+
+
+
+
+
+
+
+## 🚀 CONTRIBUTORS
+
+   -[Ameesha Arora](https://github.com/ameesha26)
+   
+   -[Gagandeep Singh Bindra](https://github.com/gagandeep00)
+   
+   -[Nibhir Tongchangya](https://github.com/nibton)
+   
+   -[Jiya Chintur](https://github.com/jiyac)
