@@ -4,7 +4,26 @@
 
 To use Content based Filtering to recommend a restaurant in Bangalore using User's preferences in location, cuisine, cost of two.
 
+<p align="center">
+<img src="https://storage.googleapis.com/scrabbl-com.appspot.com/5727647023759360"width=60% height=60%>
+</p>
 
+#### How the Restaurant Recommendation System Works?
+
+The rapid growth in data collection has led to a new era of a data-driven world. Data is used to create more efficient systems and that’s where recommender systems come in.
+
+Recommendation systems are a type of information filtering systems because they improve the quality of search results and provide elements that are more relevant to the search item or that are related to the search history of the user.
+
+These are active information filtering systems that personalize the information provided to a user based on their interests, relevance of the information, etc. Recommendation systems are widely used to recommend movies, items, restaurants, places to visit, items to buy, etc.
+
+There are three types of recommendation systems:
+
+
+  i) Content-based filtering :It uses similarities in products, services, or content features, as well as information accumulated about the user to make recommendations. 
+  
+  ii) Collaborative filtering : It relies on the preferences of similar users to offer recommendations to a particular user.
+  
+  iii) Hybrid recommender:  It combines two or more recommender strategies, using the advantages of each in different ways to make recommendations.
 
 
 ## About the Dataset
@@ -42,12 +61,13 @@ approx_cost(for two people) - contains the approximate cost for a meal for two p
 reviews_list - list of tuples containing reviews for the restaurant, each tuple consists of two values
 
 Some insights into our dataset:
-![App Screenshot](https://www.staringatr.com/3-The-Grammar-of-Graphics/Bar-plots/4_barplot2_files/figure-html/unnamed-chunk-5-1.png)
+![Graph 1](link)
 
-![App Screenshot](https://www.staringatr.com/3-The-Grammar-of-Graphics/Bar-plots/4_barplot2_files/figure-html/unnamed-chunk-5-1.png)
+![Graph 2](link)
 
 
 ## Documentation
+
 ### Packages Used
 
 
