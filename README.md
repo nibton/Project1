@@ -1,10 +1,11 @@
 
 # Restaurant Recomndation Using Zomato Dataset
-#### This repository contains our Project on Restaurant Recomnedation System Using Sentiment Analysis developed using Python.
+This repository contains our Project on Restaurant Recomnedation System Using Sentiment Analysis.
 
+#### Objective: To get inputs from a user and suggest Restaurants based on the Sentiment Scores and relevent features.
 ## About the Dataset
  We used [Zomato Dataset](https://www.kaggle.com/datasets/absin7/zomato-bangalore-dataset?select=zomato.csv) available on Kaggle.
- The dataset contains 51717 restaurants of Bangalore, India.
+ The dataset contains 51717 restaurants of different parts of Bangalore, India.
 
 ### The dataset contains the following features:
 
@@ -36,50 +37,40 @@ approx_cost(for two people) - contains the approximate cost for a meal for two p
 
 reviews_list - list of tuples containing reviews for the restaurant, each tuple consists of two values
 
+Some insights into our dataset:
+![App Screenshot](https://www.staringatr.com/3-The-Grammar-of-Graphics/Bar-plots/4_barplot2_files/figure-html/unnamed-chunk-5-1.png)
+
+![App Screenshot](https://www.staringatr.com/3-The-Grammar-of-Graphics/Bar-plots/4_barplot2_files/figure-html/unnamed-chunk-5-1.png)
+
 
 ## Documentation
+### Packages Used
+
 
 ### Part: i
-
-We began our project by importing the necessary Libraries for statrting our project.
-
-`import Pandas as pd`
-
-`import numpy as np`
-
-As we are interested in the finding the sentiment score of the reviews of each restaurant,we started with the cleaning of the reviews.
-
-We used `ast.literal_eval`method from `ast`: Abstract Syntax Trees library to convert the strings to a list of tuples to extract the needed information.
-
-After converting the strings to list of tuples, we cleaned out the characters that are unnecessary and  might affect the accuracy of the sentiment score towards the end.
-
-Further, we used `re` library to further clean the data like Removing Non ALphabets, Non English Words and to convert all Upper Cases to Lowere Cases.
+Our Project began with EDA and some basic cleaning of our dataset to have a better understanding of it and to make it better to work with.
 
 
- For the final part of the cleaning, we put the reviews through NLTK pipeline of: 
- 
-`Text_Cleaning` → `Stopwords`  → `Lemmetization`.
 
 
- After getting the Cleaned Text(reviews in this case), we pass it through our Sentiment Analyzer.
 
- For that, we are using  `blob.sentiment.polarity` from the `TextBlob` library. After getting the sentiment scores, we merge the score column with our Dataset for further use.
+
+
+After EDA, we moved to Sentiment Analysis of our reviews list. To apply Sentiment Analysis, we must pass our reviews through a pipeline (`Tokenization` → `Text_Cleaning` → `Stopwords`  → `Lemmetization`) which cleans the data making it fit for Sentiment Analysis.
+
+For Sentiment Analysis, we are using  `blob.sentiment.polarity` from the `TextBlob` library. After getting the sentiment scores, we merge the score column with our Dataset for further use.
 
 ### Part: ii
 
-
-
-
-
-
+After the sentiment scores for each restaurant is obtained, we move on to our objective i.e. to recomend restaurant based using Sentiment Analysis. As our dataset has other important features like Average Rating and no. of votes, we made a metric which take equal weightage from the mentioned features and calculate a score. This score is used to rank the restaurant.
 
 
 ## 🚀 CONTRIBUTORS
 
-   -[Ameesha Arora](https://github.com/ameesha26)
-   
-   -[Gagandeep Singh Bindra](https://github.com/gagandeep00)
-   
-   -[Nibhir Tongchangya](https://github.com/nibton)
-   
-   -[Jiya Chintur](https://github.com/jiyac)
+- [Ameesha Arora](https://github.com/ameesha26)
+
+- [Gagandeep Singh Bindra](https://github.com/gagandeep00)
+
+- [Nibhir Tongchangya](https://github.com/nibton)
+
+- [Jiya Chintur](https://github.com/jiyac)
