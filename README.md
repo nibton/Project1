@@ -60,10 +60,6 @@ approx_cost(for two people) - contains the approximate cost for a meal for two p
 
 reviews_list - list of tuples containing reviews for the restaurant, each tuple consists of two values
 
-Some insights into our dataset:
-![Graph 1](link)
-
-![Graph 2](link)
 
 
 ## Documentation
