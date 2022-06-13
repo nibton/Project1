@@ -1,5 +1,5 @@
 
-# Restaurant Recomndation Using Zomato Dataset
+# Restaurant Recommendation Using Zomato Dataset
 ### Objective: 
 
 To use Content based Filtering to recommend a restaurant in Bangalore using User's preferences in location, cuisine, cost of two.
