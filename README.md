@@ -1,8 +1,12 @@
 
 # Restaurant Recomndation Using Zomato Dataset
-This repository contains our Project on Restaurant Recomnedation System Using Sentiment Analysis.
+### Objective: 
 
-#### Objective: To get inputs from a user and suggest Restaurants based on the Sentiment Scores and relevent features.
+To use Content based Filtering to recommend a restaurant in Bangalore using User's preferences in location, cuisine, cost of two.
+
+
+
+
 ## About the Dataset
  We used [Zomato Dataset](https://www.kaggle.com/datasets/absin7/zomato-bangalore-dataset?select=zomato.csv) available on Kaggle.
  The dataset contains 51717 restaurants of different parts of Bangalore, India.
