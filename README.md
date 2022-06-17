@@ -1,33 +1,27 @@
 
-# Restaurant Recommendation Using Zomato Dataset
+# Restaurant Recommendation ML Project
+
+
+## 🚀 AUTHORS
+
+- [Ameesha Arora](https://github.com/ameesha26)
+
+- [Gagandeep Singh Bindra](https://github.com/gagandeep00)
+
+- [Nibhir Tongchangya](https://github.com/nibton)
+
+- [Jiya Chintur](https://github.com/jiyac)
+
 ### Objective: 
 
-To use Content based Filtering to recommend a restaurant in Bangalore using User's preferences in location, cuisine, cost of two.
+To use Content Based Filtering to recommend a restaurant in Bangalore using User's preferences in location, cuisine, cost of two.
 
 <p align="center">
 <img src="https://storage.googleapis.com/scrabbl-com.appspot.com/5727647023759360"width=60% height=60%>
 </p>
 
-#### How the Restaurant Recommendation System Works?
-
-The rapid growth in data collection has led to a new era of a data-driven world. Data is used to create more efficient systems and that’s where recommender systems come in.
-
-Recommendation systems are a type of information filtering systems because they improve the quality of search results and provide elements that are more relevant to the search item or that are related to the search history of the user.
-
-These are active information filtering systems that personalize the information provided to a user based on their interests, relevance of the information, etc. Recommendation systems are widely used to recommend movies, items, restaurants, places to visit, items to buy, etc.
-
-There are three types of recommendation systems:
-
-
-  i) Content-based filtering :It uses similarities in products, services, or content features, as well as information accumulated about the user to make recommendations. 
-  
-  ii) Collaborative filtering : It relies on the preferences of similar users to offer recommendations to a particular user.
-  
-  iii) Hybrid recommender:  It combines two or more recommender strategies, using the advantages of each in different ways to make recommendations.
-
-
 ## About the Dataset
- We used [Zomato Dataset](https://www.kaggle.com/datasets/absin7/zomato-bangalore-dataset?select=zomato.csv) available on Kaggle.
+ We used [Zomato Bangalore Dataset](https://www.kaggle.com/datasets/absin7/zomato-bangalore-dataset?select=zomato.csv) available on Kaggle.
  The dataset contains 51717 restaurants of different parts of Bangalore, India.
 
 ### The dataset contains the following features:
@@ -61,6 +55,25 @@ approx_cost(for two people) - contains the approximate cost for a meal for two p
 reviews_list - list of tuples containing reviews for the restaurant, each tuple consists of two values
 
 
+#### How the Restaurant Recommendation System Works?
+
+The rapid growth in data collection has led to a new era of a data-driven world. Data is used to create more efficient systems and that’s where recommender systems come in.
+
+Recommendation systems are a type of information filtering systems because they improve the quality of search results and provide elements that are more relevant to the search item or that are related to the search history of the user.
+
+These are active information filtering systems that personalize the information provided to a user based on their interests, relevance of the information, etc. Recommendation systems are widely used to recommend movies, items, restaurants, places to visit, items to buy, etc.
+
+There are three types of recommendation systems:
+
+
+  i) Content-based filtering :It uses similarities in products, services, or content features, as well as information accumulated about the user to make recommendations. 
+  
+  ii) Collaborative filtering : It relies on the preferences of similar users to offer recommendations to a particular user.
+  
+  iii) Hybrid recommender:  It combines two or more recommender strategies, using the advantages of each in different ways to make recommendations.
+
+
+
 
 ## Documentation
 
@@ -85,12 +98,3 @@ For Sentiment Analysis, we are using  `blob.sentiment.polarity` from the `TextBl
 After the sentiment scores for each restaurant is obtained, we move on to our objective i.e. to recomend restaurant based using Sentiment Analysis. As our dataset has other important features like Average Rating and no. of votes, we made a metric which take equal weightage from the mentioned features and calculate a score. This score is used to rank the restaurant.
 
 
-## 🚀 CONTRIBUTORS
-
-- [Ameesha Arora](https://github.com/ameesha26)
-
-- [Gagandeep Singh Bindra](https://github.com/gagandeep00)
-
-- [Nibhir Tongchangya](https://github.com/nibton)
-
-- [Jiya Chintur](https://github.com/jiyac)
