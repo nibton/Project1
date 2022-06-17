@@ -12,6 +12,8 @@
 
 - [Jiya Chintur](https://github.com/jiyac)
 
+*Under the mentorship of [Mr. Baan Bapat](https://www.linkedin.com/in/baan-bapat-90b74b13)*
+
 ### Objective: 
 
 To use Content Based Filtering to recommend a restaurant in Bangalore using User's preferences in location, cuisine, cost of two.
